@@ -1,0 +1,16 @@
+﻿	Задача 2
+ 
+// сначала создаем функцию, чтобы считать длину строки
+function countBs (str) {
+	str = prompt ('Введите слово');
+alert (str.length);
+}
+countBs ();
+
+
+// теперь создаем функцию для нахождения 5-го символа в строке
+function countChar (str) {
+	str = prompt ('Введите слово');
+alert (str.charAt(4));
+}
+countChar();
